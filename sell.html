@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sell Your Car | AutoHub</title>
+  <link rel="stylesheet" href="homepage.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+       <a href="homepage.html"><h1>kalicars Rwanda</h1></a> 
+      <nav>
+        <a href="homepage.html">Home</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="sell.html">Sell Your Car</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="sell-car">
+    <h2>Sell Your Car</h2>
+    <p>Fill in your car details and we'll send you an offer.</p>
+    <form action="https://formspree.io/f/your-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="make_model" placeholder="Car Make & Model" required />
+      <input type="number" name="year" placeholder="Year" required />
+      <input type="text" name="mileage" placeholder="Mileage (km)" required />
+      <textarea name="details" placeholder="Additional Details" rows="4"></textarea>
+      <button type="submit">Submit Vehicle</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AutoHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
